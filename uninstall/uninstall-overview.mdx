@@ -1,0 +1,53 @@
+---
+title: Uninstall Nutshell
+icon: circle-xmark
+---
+
+# Uninstalling Nutshell from macOS
+
+Follow these steps to completely remove Nutshell from your Mac system.
+
+## Step 1: Remove the Application
+<Steps>
+  <Step title="Move to Trash" icon="trash">
+    Drag the Nutshell application from your Applications folder to the Trash, or right-click and select "Move to Trash"
+  </Step>
+  <Step title="Empty Trash" icon="trash-can">
+    Right-click on the Trash icon in your dock and select "Empty Trash" to permanently delete the application
+  </Step>
+</Steps>
+
+## Step 2: Remove the Virtual Audio Driver
+<Warning>
+  The virtual audio driver is a critical component that needs to be removed separately. This requires terminal access and administrator privileges.
+</Warning>
+
+<Steps>
+  <Step title="Open Terminal" icon="terminal">
+    Press `⌘ + Space` to open Spotlight Search, type "Terminal" and press Enter
+  </Step>
+  
+  <Step title="Remove Audio Driver" icon="trash-can">
+    Enter the following command:
+    ```bash
+    sudo rm -R /Library/Audio/Plug-Ins/HAL/NoSound64ch.driver
+    ```
+    You'll be prompted to enter your administrator password. Type it in and press Enter.
+  </Step>
+
+  <Step title="Restart Audio Service" icon="arrows-rotate">
+    Enter the following command:
+    ```bash
+    sudo killall coreaudiod
+    ```
+    You'll need to enter your administrator password again. Type it in and press Enter.
+  </Step>
+</Steps>
+
+<Note>
+  After completing these steps, Nutshell will be completely removed from your system. If you plan to reinstall Nutshell in the future, you can download it again from our official website.
+</Note>
+
+<Tip>
+  If you're uninstalling due to technical issues, consider reaching out to our support team first - we might be able to help resolve the problem without requiring a complete uninstall.
+</Tip>

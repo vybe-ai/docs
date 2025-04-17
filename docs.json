@@ -1,0 +1,161 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Nutshell Help",
+  "colors": {
+    "primary": "#05051e",
+    "light": "#05051e",
+    "dark": "#05051e"
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting started",
+        "pages": [
+          "getting-started/introduction",
+          "getting-started/download-and-install",
+          "getting-started/transcribe-your-first-meeting",
+          {
+            "group": "Audio",
+            "icon": "volume-high",
+            "pages": [
+              "getting-started/audio-setup/overview",
+              "getting-started/audio-setup/volume-control",
+              "getting-started/audio-setup/audio-permissions",
+              {
+                "group": "Meeting platforms",
+                "pages": [
+                  "getting-started/audio-setup/integrations/zoom",
+                  "getting-started/audio-setup/integrations/chime",
+                  "getting-started/audio-setup/integrations/google-meet",
+                  "getting-started/audio-setup/integrations/slack"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Features",
+            "icon": "sparkles",
+            "pages": [
+              "getting-started/features/real-time-transcription",
+              "getting-started/features/post-transcription",
+              "getting-started/features/language-change",
+              "getting-started/features/ai-chat",
+              "getting-started/features/copy-to-clipboard",
+              "getting-started/features/custom-prompts",
+              "getting-started/features/folder-organize",
+              {
+                "group": "Export transcription",
+                "pages": [
+                  "getting-started/features/export-transcription/obsidian"
+                ]
+              }
+            ]
+          },
+          "getting-started/FAQ"
+        ]
+      },
+      {
+        "group": "Subscription",
+        "pages": [
+          "license/purchase-license",
+          "license/transfer-license-key",
+          "license/enterprise",
+          "license/cancel-subscription"
+        ]
+      },
+      {
+        "group": "Changelog",
+        "pages": [
+          "changelog/product-update"
+        ]
+      },
+      {
+        "group": "Uninstall",
+        "pages": [
+          "uninstall/uninstall-overview"
+        ]
+      },
+      {
+        "group": "Security and privacy",
+        "pages": [
+          "security-and-privacy/security-and-privacy-overview"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "support/contact-us"
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Feedback",
+          "href": "https://withnutshell.canny.io/feature-requests",
+          "icon": "book-open-cover",
+          "color": {
+            "light": "#a364d3",
+            "dark": "#a364d3"
+          }
+        },
+        {
+          "anchor": "Roadmap",
+          "href": "https://withnutshell.canny.io/",
+          "icon": "rocket-launch",
+          "color": {
+            "light": "#a364d3",
+            "dark": "#a364d3"
+          }
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://withnutshell.com/blog",
+          "icon": "newspaper",
+          "color": {
+            "light": "#a364d3",
+            "dark": "#a364d3"
+          }
+        },
+        {
+          "anchor": "FAQ",
+          "href": "https://help.withnutshell.com/getting-started/FAQ",
+          "icon": "question",
+          "color": {
+            "light": "#a364d3",
+            "dark": "#a364d3"
+          }
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/nutshell_help_logo_light.png",
+    "dark": "/logo/nutshell_help_logo_dark.png",
+    "href": "https://withnutshell.com"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@withnutshell.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Main site",
+      "href": "https://withnutshell.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/nutshell_ai",
+      "linkedin": "https://www.linkedin.com/company/nutshellai"
+    }
+  }
+}
