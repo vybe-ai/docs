@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Nutshell Help",
+  "name": "VYBE docs",
   "colors": {
     "primary": "#05051e",
     "light": "#05051e",
@@ -97,7 +97,7 @@
       "anchors": [
         {
           "anchor": "Feedback",
-          "href": "https://withnutshell.canny.io/feature-requests",
+          "href": "https://vybe.canny.io/feature-requests",
           "icon": "book-open-cover",
           "color": {
             "light": "#a364d3",
@@ -106,7 +106,7 @@
         },
         {
           "anchor": "Roadmap",
-          "href": "https://withnutshell.canny.io/",
+          "href": "https://vybe.canny.io/",
           "icon": "rocket-launch",
           "color": {
             "light": "#a364d3",
@@ -115,7 +115,7 @@
         },
         {
           "anchor": "Blog",
-          "href": "https://withnutshell.com/blog",
+          "href": "https://vybe.im/blog",
           "icon": "newspaper",
           "color": {
             "light": "#a364d3",
@@ -124,7 +124,7 @@
         },
         {
           "anchor": "FAQ",
-          "href": "https://help.withnutshell.com/getting-started/FAQ",
+          "href": "https://docs.vybe.im/getting-started/FAQ",
           "icon": "question",
           "color": {
             "light": "#a364d3",
@@ -135,27 +135,27 @@
     }
   },
   "logo": {
-    "light": "/logo/nutshell_help_logo_light.png",
-    "dark": "/logo/nutshell_help_logo_dark.png",
-    "href": "https://withnutshell.com"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png",
+    "href": "https://vybe.im"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@withnutshell.com"
+        "href": "mailto:support@vybe.im"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Main site",
-      "href": "https://withnutshell.com"
+      "href": "https://vybe.im"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/nutshell_ai",
-      "linkedin": "https://www.linkedin.com/company/nutshellai"
+      "x": "https://x.com/vybe_ai",
+      "linkedin": "https://www.linkedin.com/company/vybe-ai"
     }
   }
 }
