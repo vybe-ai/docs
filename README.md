@@ -1,4 +1,4 @@
-# VYBE Mintlify Starter Kit
+# VYBE Mintlify Starter Kitt
 
 Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
 
