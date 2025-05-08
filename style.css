@@ -1,9 +1,9 @@
 #topbar-cta-button > a > span {
-    background-image: linear-gradient(135deg, rgb(146, 106, 255) 0%, rgb(255, 119, 176) 50%, rgb(255, 179, 103) 100%);
+    background-image: linear-gradient(135deg, rgb(83, 90, 230) 0%, rgb(110, 115, 128) 50%, rgb(153, 154, 178) 100%);
 }
 
 .dark\:bg-background-dark\/75:is(.dark *) {
-    background-color: #05051e;
+    background-color: #0a0a0a;
 }
 
 .card {
@@ -23,9 +23,9 @@
 }
 
 :root {
-    --primary: 202 128 224;
-    --primary-light: 202 128 224;
-    --primary-dark: 202 128 224;
-    --background-dark: 5 5 30;
+    --primary: 107 113 227;
+    --primary-light: 107 113 227;
+    --primary-dark: 107 113 227;
+    --background-dark: 10 10 10;
     --background-light: 245 245 245;
 }

@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "VYBE doc",
   "colors": {
-    "primary": "#05051e",
-    "light": "#05051e",
-    "dark": "#05051e"
+    "primary": "#0a0a0a",
+    "light": "#0a0a0a",
+    "dark": "#0a0a0a"
   },
   "appearance": {
     "default": "dark"
@@ -17,43 +17,11 @@
         "group": "Getting started",
         "pages": [
           "getting-started/introduction",
-          "getting-started/download-and-install",
-          "getting-started/transcribe-your-first-meeting",
-          {
-            "group": "Audio",
-            "icon": "volume-high",
-            "pages": [
-              "getting-started/audio-setup/overview",
-              "getting-started/audio-setup/volume-control",
-              "getting-started/audio-setup/audio-permissions",
-              {
-                "group": "Meeting platforms",
-                "pages": [
-                  "getting-started/audio-setup/integrations/zoom",
-                  "getting-started/audio-setup/integrations/chime",
-                  "getting-started/audio-setup/integrations/google-meet",
-                  "getting-started/audio-setup/integrations/slack"
-                ]
-              }
-            ]
-          },
           {
             "group": "Features",
             "icon": "sparkles",
             "pages": [
-              "getting-started/features/real-time-transcription",
-              "getting-started/features/post-transcription",
-              "getting-started/features/language-change",
-              "getting-started/features/ai-chat",
-              "getting-started/features/copy-to-clipboard",
-              "getting-started/features/custom-prompts",
-              "getting-started/features/folder-organize",
-              {
-                "group": "Export transcription",
-                "pages": [
-                  "getting-started/features/export-transcription/obsidian"
-                ]
-              }
+              "getting-started/features/ai-chat"
             ]
           },
           "getting-started/FAQ"
@@ -62,28 +30,15 @@
       {
         "group": "Subscription",
         "pages": [
-          "license/purchase-license",
-          "license/transfer-license-key",
-          "license/enterprise",
-          "license/cancel-subscription"
+          "subscription/purchase-subscription",
+          "subscription/enterprise",
+          "subscription/cancel-subscription"
         ]
       },
       {
         "group": "Changelog",
         "pages": [
           "changelog/product-update"
-        ]
-      },
-      {
-        "group": "Uninstall",
-        "pages": [
-          "uninstall/uninstall-overview"
-        ]
-      },
-      {
-        "group": "Security and privacy",
-        "pages": [
-          "security-and-privacy/security-and-privacy-overview"
         ]
       },
       {
@@ -100,8 +55,8 @@
           "href": "https://vybe.canny.io/feature-requests",
           "icon": "book-open-cover",
           "color": {
-            "light": "#a364d3",
-            "dark": "#a364d3"
+            "light": "#6b71e3",
+            "dark": "#6b71e3"
           }
         },
         {
@@ -109,8 +64,8 @@
           "href": "https://vybe.canny.io/",
           "icon": "rocket-launch",
           "color": {
-            "light": "#a364d3",
-            "dark": "#a364d3"
+            "light": "#6b71e3",
+            "dark": "#6b71e3"
           }
         },
         {
@@ -118,8 +73,8 @@
           "href": "https://vybe.im/blog",
           "icon": "newspaper",
           "color": {
-            "light": "#a364d3",
-            "dark": "#a364d3"
+            "light": "#6b71e3",
+            "dark": "#6b71e3"
           }
         },
         {
@@ -127,8 +82,8 @@
           "href": "https://docs.vybe.im/getting-started/FAQ",
           "icon": "question",
           "color": {
-            "light": "#a364d3",
-            "dark": "#a364d3"
+            "light": "#6b71e3",
+            "dark": "#6b71e3"
           }
         }
       ]
