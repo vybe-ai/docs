@@ -21,7 +21,7 @@
             "group": "Features",
             "icon": "sparkles",
             "pages": [
-              "getting-started/features/ai-chat"
+              "getting-started/features/export-video"
             ]
           },
           "getting-started/FAQ"
@@ -52,7 +52,7 @@
       "anchors": [
         {
           "anchor": "Feedback",
-          "href": "https://vybe.canny.io/feature-requests",
+          "href": "https://vybe-ai.canny.io/feature-requests",
           "icon": "book-open-cover",
           "color": {
             "light": "#6b71e3",
@@ -61,7 +61,7 @@
         },
         {
           "anchor": "Roadmap",
-          "href": "https://vybe.canny.io/",
+          "href": "https://vybe-ai.canny.io/",
           "icon": "rocket-launch",
           "color": {
             "light": "#6b71e3",
