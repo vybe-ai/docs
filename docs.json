@@ -90,8 +90,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.png",
-    "dark": "/logo/dark.png",
+    "light": "/logo/vydeo_light_transparent_small.png",
+    "dark": "/logo/vydeo_dark_transparent_small.png",
     "href": "https://vydeo.app"
   },
   "navbar": {
